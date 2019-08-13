@@ -52,25 +52,29 @@ switch(sc.nextInt()){
 
 case 1:
 System.out.println("How many more Servers?:");
+                    
                     servers+=sc.nextInt();
 break;
 
 
 case 2:
 System.out.println("How many Servers to remove?:");
+                    
                     servers-=sc.nextInt();
 break;
 
 
 case 3:
 System.out.println("How many Processes?:");
+                    
                     Processes+=sc.nextInt();
 break;
 
 
 case 4:
 System.out.println("How many Processes to remove?:");
-                    Processes-=sc.nextInt();
+                   
+                   Processes-=sc.nextInt();
 break;
 
 
