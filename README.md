@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class LoadBalancer
 
  {
+
 static void printLoad (int servers,int Processes)
 
 {
@@ -75,8 +76,12 @@ break;
 
 case 5:
 return;
+            
             }
-        }
-    }
+       
+       }
+   
+   }
+
 }
 
