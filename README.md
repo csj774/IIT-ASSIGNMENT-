@@ -1,9 +1,12 @@
 # IIT-ASSIGNMENT-
 
 import java.util.Scanner;
+
 public class LoadBalancer
+
  {
 static void printLoad (int servers,int Processes)
+
 {
 int each = Processes/servers;
 int extra = Processes%servers;
@@ -15,6 +18,7 @@ else total = each;
 System.out.println("server "+(char)('A'+i)+" has "+total+" Processes");
   }
  }
+
 public static void main(String[] args)
 {
         Scanner sc = new Scanner(System.in);
